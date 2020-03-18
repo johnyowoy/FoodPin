@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52051151242272E700BC6189 /* UINavigationController_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52051150242272E700BC6189 /* UINavigationController_Ext.swift */; };
 		524892C9240502C7002D945B /* RestaurantDetailIconTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524892C8240502C6002D945B /* RestaurantDetailIconTextCell.swift */; };
 		524892CB24051217002D945B /* RestaurantDetailTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524892CA24051217002D945B /* RestaurantDetailTextCell.swift */; };
 		5267C53523F9C8DB00B2C505 /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5267C53423F9C8DB00B2C505 /* RestaurantDetailViewController.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52051150242272E700BC6189 /* UINavigationController_Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController_Ext.swift; sourceTree = "<group>"; };
 		524892C8240502C6002D945B /* RestaurantDetailIconTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailIconTextCell.swift; sourceTree = "<group>"; };
 		524892CA24051217002D945B /* RestaurantDetailTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailTextCell.swift; sourceTree = "<group>"; };
 		5267C53423F9C8DB00B2C505 /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				52F39FA92420E93D009B441F /* UIColor_Ext.swift */,
+				52051150242272E700BC6189 /* UINavigationController_Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5291297723EC81F200AF1427 /* RestaurantTableViewCell.swift in Sources */,
+				52051151242272E700BC6189 /* UINavigationController_Ext.swift in Sources */,
 				52F39FAA2420E93D009B441F /* UIColor_Ext.swift in Sources */,
 				524892CB24051217002D945B /* RestaurantDetailTextCell.swift in Sources */,
 				5291296123EC5A9F00AF1427 /* AppDelegate.swift in Sources */,

@@ -34,6 +34,19 @@ class RestaurantDetailViewController: UIViewController, UITableViewDataSource, U
         
         // 自訂表格視圖分隔符號
         tableView.separatorStyle = .none
+        
+        // 自訂導覽列
+        navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        navigationController?.navigationBar.shadowImage = UIImage()
+        
+        tableView.contentInsetAdjustmentBehavior = .never
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        navigationController?.hidesBarsOnSwipe = false
+        navigationController?.setNavigationBarHidden(false, animated: true)
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
