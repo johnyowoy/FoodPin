@@ -31,6 +31,7 @@
 		52BA41F023FD491600A9529B /* Lacquer-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52BA41E923FD491600A9529B /* Lacquer-Regular.ttf */; };
 		52BA41F123FD491600A9529B /* Abril_Fatface_OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 52BA41EA23FD491600A9529B /* Abril_Fatface_OFL.txt */; };
 		52BA41F323FD61BD00A9529B /* RestaurantDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BA41F223FD61BD00A9529B /* RestaurantDetailHeaderView.swift */; };
+		52C049D8242D05CC00C7A318 /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C049D7242D05CC00C7A318 /* ReviewViewController.swift */; };
 		52F39FAA2420E93D009B441F /* UIColor_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F39FA92420E93D009B441F /* UIColor_Ext.swift */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,7 @@
 		52BA41E923FD491600A9529B /* Lacquer-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lacquer-Regular.ttf"; sourceTree = "<group>"; };
 		52BA41EA23FD491600A9529B /* Abril_Fatface_OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Abril_Fatface_OFL.txt; sourceTree = "<group>"; };
 		52BA41F223FD61BD00A9529B /* RestaurantDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailHeaderView.swift; sourceTree = "<group>"; };
+		52C049D7242D05CC00C7A318 /* ReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
 		52F39FA92420E93D009B441F /* UIColor_Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor_Ext.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +134,7 @@
 				5291297423EC5D3B00AF1427 /* RestaurantTableViewController.swift */,
 				5267C53423F9C8DB00B2C505 /* RestaurantDetailViewController.swift */,
 				5255BBE42424EC0900683865 /* MapViewController.swift */,
+				52C049D7242D05CC00C7A318 /* ReviewViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			files = (
 				5291297723EC81F200AF1427 /* RestaurantTableViewCell.swift in Sources */,
 				52051151242272E700BC6189 /* UINavigationController_Ext.swift in Sources */,
+				52C049D8242D05CC00C7A318 /* ReviewViewController.swift in Sources */,
 				52F39FAA2420E93D009B441F /* UIColor_Ext.swift in Sources */,
 				524892CB24051217002D945B /* RestaurantDetailTextCell.swift in Sources */,
 				5291296123EC5A9F00AF1427 /* AppDelegate.swift in Sources */,
